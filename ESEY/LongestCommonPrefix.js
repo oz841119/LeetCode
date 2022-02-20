@@ -4,6 +4,8 @@ If there is no common prefix, return an empty string "".
 !! 查找由字串組成的元素數組共同的最長前綴
 */
 
+
+// 暴力解 122ms 42.2MB
 let longestCommonPrefix = function(strs) {
   let prefix = ''
   let shortElement = Math.min(...strs.map(str => str.length)) // 展開運算符 + map獲得字串元素的長度 返回最小的長度
