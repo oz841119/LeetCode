@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linked List</title>
+  <!-- <script src="./LinkedList.js"></script> -->
+  <script src="./main.js"></script>
+  <link href="./linkedlist.css" rel=stylesheet>
+</head>
+<body>
+  <div class="typeArea">
+    <div class="title">Linked List</div>
+
+    <div class="formArea">
+      <div class="inpWrap">
+        <input type="text" class="mb8" placeholder="值" id="inpValue">
+        <input type="number" placeholder="索引">
+      </div>
+      
+      <div class="btnWrap">
+        <div class="topForm mb8" id="topForm">
+          <button id="addNodeToTail" disabled>新增節點(尾部)</button>
+          <button id="addNodeToHead" disabled>新增節點(頭部)</button>
+          <button id="removeNodeToTail" disabled>刪除節點(尾部)</button>
+          <button id="removeNodeToHead" disabled>刪除節點(頭部)</button>
+        </div>
+        <div class="midForm mb8">
+          <button id="removeNodeToAny" disabled>移除指定索引的節點</button>
+          <button id="getContent" disabled>獲取指定索引節點內容</button>
+        </div>
+        <div class="btmForm">
+          <button id="setNodeToAny" disabled>設置節點在指定索引</button>
+        </div>
+      </div>
+    </div>
+    <main></main>
+  </div>
+</body>
+</html>

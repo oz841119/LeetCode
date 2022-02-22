@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  width: 100px;
+  height: 26px;
+}
+
+button {
+  height: 26px;
+  padding: 0 6px
+}
+
+.typeArea {
+  padding: 0 200px;
+}
+
+.formArea {
+  display: flex;
+}
+
+.inpWrap {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.btnWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
